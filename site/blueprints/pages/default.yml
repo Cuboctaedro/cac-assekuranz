@@ -1,0 +1,55 @@
+title: Default Page
+
+options:
+    changeTemplate: false
+
+status:
+    draft: Draft
+    unlisted: In Review
+    listed: Published
+
+tabs:
+    content: Content
+        icon: text
+        columns:
+          - width: 2/3
+            sections:
+                content:
+                    type: fields
+                    fields:
+                        headertext:
+                            label: Slogan
+                            type: text
+                        body:
+                            label: Text
+                            type: markdown
+                            size: medium
+                            buttons:
+                              - headlines
+                                - h2
+                                - h3
+                                - h4
+                              - bold
+                              - italic
+                              - ul
+                              - ol
+
+          - width: 1/3
+            sections:
+                metadata:
+                    type: fields
+                    fields:
+                        coverimage:
+                            label: Cover Image
+                            type: files
+                            layout: cards
+                            multiple: false
+                pageimages:
+                    extends: sections/pageimages
+                subpages:
+                    type: pages
+                    label: Children Pages
+                    status: all
+                    template: default
+
+    seo: tabs/seo

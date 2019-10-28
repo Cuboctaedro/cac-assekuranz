@@ -1,0 +1,14 @@
+.crumb {
+    padding-right: 0.3em;
+    &::after {
+        padding-left: 0.3em;
+        content: "/";
+    }
+}
+.crumb:last-child{
+    padding-right: 0;
+    &::after {
+        padding-left: 0;
+        content: "";
+    }
+}

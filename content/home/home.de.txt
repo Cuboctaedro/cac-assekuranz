@@ -1,0 +1,49 @@
+Title: Home
+
+----
+
+Body:
+
+## Herzlich Willkommen bei CAC-ASSEKURANZ!
+
+Sie schneiden sich selbst die Haare? Reparieren Ihr Auto, den Spülmaschinenabfluss und gelegentlich auch einen Zahndefekt selbst? Sie erledigen Ihre Steuererklärung allein, lösen jedes Computerproblem im Handumdrehen und ändern als Hobbyschneider auch noch die Kleidung der ganzen Familie auf höchstem Niveau? Dann sind Sie Spitze, auf dieser Seite aber falsch.
+
+Wenn Sie die passgenaue Lösung bestimmter Aufgaben Ihres Alltags sachkundigen Profis anvertrauen, sind Sie hier richtig.
+
+Wie Fachleute in anderen Bereichen, kümmern wir uns mit Ihnen gemeinsam um die Ordnung Ihrer Finanzen, um alle Sparmöglichkeiten, um Vorsorge und Absicherung sowie um spürbares und kontinuierliches Wachstum in Ihrem Portemonnaie. Unsere Arbeit ist gesetzlich reglementiert, streng kontrolliert und durch den Staat geprüft – hoch qualifiziert.
+
+Unsere Leistungen sind für Sie unentgeltlich, zahlen sich aber in jedem Fall aus. Lesen Sie mehr und informieren Sie sich auf unserer Homepage.
+
+----
+
+Activities:
+
+- 
+  activity: Versicherungen
+- 
+  activity: Finanzierungen
+- 
+  activity: Vermögensaufbau
+
+----
+
+Coverimages:
+
+- logo-glass.jpg
+- exterior.jpg
+- keyboard.jpg
+- reception.jpg
+
+----
+
+Metadescription: 
+
+----
+
+Metaimage:
+
+- logo-on-glass.jpg
+
+----
+
+Authortwitter: 

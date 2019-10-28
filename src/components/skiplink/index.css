@@ -1,0 +1,14 @@
+.skiplink_container {
+    top: -300px;
+    @apply absolute left-0 ;
+    &.focus {
+        top: 0;
+    }
+}
+
+/*
+<div class="skiplink_container">
+    <a class="skiplink  href="#main">Skip to content</a>
+    <a class="skiplink" href="#nav">Skip to main menu</a>
+</div>
+*/

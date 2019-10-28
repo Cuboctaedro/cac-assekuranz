@@ -1,0 +1,23 @@
+label: SEO
+icon: search
+columns:
+  - width: 2/3
+    sections:
+        main:
+            type: fields
+            fields:
+                metadescription:
+                    extends: fields/plaineditor
+                    label: Meta Description
+                metaimage:
+                    label: Meta Image
+                    type: files
+                    layout: cards
+                    multiple: false
+                authortwitter:
+                    type: text
+                    label: Author Twitter Username
+  - width: 1/3
+    sections:
+        pageimages:
+            extends: sections/pageimages

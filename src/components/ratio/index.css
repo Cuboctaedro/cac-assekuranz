@@ -1,0 +1,19 @@
+
+
+
+.ratio {
+    overflow: hidden;
+    height: 0;
+}
+.ratio-landscape {
+    padding-top: 33.33%;
+}
+.ratio-square {
+    padding-top: 100%;
+}
+.ratio-gold {
+    padding-top: 61.8%;
+}
+.ratio-logo {
+    padding-top: 50%;
+}

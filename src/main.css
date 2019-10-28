@@ -1,0 +1,125 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "components/breadcrumbs/index.css";
+@import "components/skiplink/index.css";
+@import "components/dropdown/index.css";
+@import "components/logo/index.css";
+@import "components/header/index.css";
+@import "components/ratio/index.css";
+
+@import "tailwindcss/utilities";
+@import "utilities/accessible-hide.css";
+@import "utilities/generated.css";
+@import "utilities/animate.css";
+
+@import "plugins/uniform/index.css";
+
+
+.slogan {
+    top: 50%;
+    right: 66.66%;
+}
+
+
+.square {
+    padding-left: 1.5625rem;
+    position:relative;
+}
+.square::before {
+    content: "";
+    position: absolute;
+    top:5px;
+    left:0;
+    width: 10px;
+    height: 10px;
+    @apply bg-brand;
+}
+.error-text {
+    text-align: right;
+    font-size: 0.875rem;
+    @apply text-brand;
+}
+
+.headerimage-1 {
+    animation: fade 12000ms infinite;
+}
+.headerimage-2 {
+    animation: fade2 12000ms infinite;
+}
+.headerimage-3 {
+    animation: fade3 12000ms infinite;
+}
+.headerimage-4 {
+    animation: fade4 12000ms infinite;
+}
+@keyframes fade {
+    0%   {opacity:1}
+    25% { opacity: 0}
+    50% { opacity: 0 }
+    75% { opacity: 0}
+    100% { opacity: 1}
+}
+@keyframes fade2 {
+  0%   {opacity:0}
+  25% { opacity: 1}
+  50% { opacity: 0 }
+  75% { opacity: 0}
+ 100% { opacity: 0}
+}
+@keyframes fade3 {
+    0%   {opacity:0}
+    25% { opacity: 0}
+    50% { opacity: 1 }
+    75% { opacity: 0}
+   100% { opacity: 0}
+}
+@keyframes fade4 {
+    0%   {opacity:0}
+    25% { opacity: 0}
+    50% { opacity: 0 }
+    75% { opacity: 1}
+   100% { opacity: 0}
+}
+
+svg {
+    fill:currentColor;
+}
+
+.menuitem {
+    @apply p-30 text-center block;
+}
+.menuitem:hover {
+    @apply bg-brand_light_3;
+}
+.menulist {
+    top: 6rem;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+@screen md {
+    .menuitem {
+        @apply p-0 relative;
+    }
+    .menuitem::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+        @apply bg-brand;
+    }
+    .menuitem:hover {
+        @apply bg-transparent text-brand;
+    }
+    .menuitem:hover::after {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+}

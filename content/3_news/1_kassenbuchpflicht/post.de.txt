@@ -1,0 +1,35 @@
+Title: Kassenbuchpflicht
+
+----
+
+Intro: Unternehmen halten in einem Kassenbuch alle Bareinnahmen und -ausgaben fest. Dabei ist äußerste Sorgfalt notwendig, da Außenprüfer das Kassenbuch besonders kritisch überprüfen.
+
+----
+
+Body:
+
+Pflicht ein Kassenbuch zu führen und damit eine ordnungsgemäße Kassenbuchführung nachzuweisen, ist in den Pragraphen 238-241 HGB geregelt. Davon befreit sind Einzelkaufleute, deren Umsatzerlöse in zwei aufeinanderfolgenden Jahren 600.000 Euro nicht überschreiten und die nicht mehr als 60.000 Euro Gewinn nachweisen. Für neu gegründete Unternehmen gilt: Der Jahresüberschuss am ersten Abschlussstichtag ab Gründung darf die genannten Zahlen nicht übersteigen.
+
+Besonderheiten der Kassenführung bei Einnahme-Überschuss-Rechnung Detaillierte Regelungen darüber, wie Bareinnahmen aufgezeichnet werden müssen, sind weder im HGB noch in den Steuergesetzen enthalten. In § 146 Abs. 1 AO heißt es lediglich, dass die Buchungen und die sonst erforderlichen Aufzeichnungen vollständig, richtig, zeitgerecht und geordnet vorzunehmen sind und die Kasseneinnahmen täglich festgehalten werden sollen. Bei einer Einnahmen-Überschussrechnung können die Buchführungsunterlagen und die sonst erforderlichen Aufzeichnungen auch in der geordneten Ablage von Belegen bestehen (§ 146 Abs. 5 AO), wenn dies den Grundsätzen ordnungsgemäßer Buchführung entspricht. Das bedeutet, dass bei einer Einnahmen-Überschussrechnung die Bareinnahmen und Barausgaben allein anhand der Rechnungen und Quittungen nachgewiesen werden können, z. B. indem die Belege chronologisch nach dem Tag des Geldeingangs abgelegt werden und in handschriftliche oder EDV-Listen, z. B. in Excel-Tabellen, eingetragen werden.
+
+----
+
+Date: 2019-10-04
+
+----
+
+Coverimage:
+
+- keyboard.jpg
+
+----
+
+Metadescription: 
+
+----
+
+Metaimage: 
+
+----
+
+Authortwitter: 

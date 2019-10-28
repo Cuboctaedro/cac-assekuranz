@@ -1,0 +1,100 @@
+title: Site
+
+tabs:
+    main:
+        label: Main
+        icon: text
+        columns:
+          - width: 2/3
+                sections:
+                    home:
+                        headline: Home
+                        type: pages
+                        status: all
+                        templates: home
+                        max: 1
+                    news:
+                        headline: News
+                        type: pages
+                        status: all
+                        templates: post
+                        parent: site.children.filterBy('intendedTemplate', 'blog').first
+                    pages:
+                        headline: Pages
+                        type: pages
+                        status: all
+                        templates: default
+                    contact:
+                        headline: Contact
+                        type: pages
+                        status: all
+                        templates: contact
+                        max: 1
+          - width: 1/3
+                sections:
+                    widgets:
+                        headline: Widgets
+                        type: pages
+                        status: all
+                        templates: widget
+                        parent: site.children.filterBy('intendedTemplate', 'widgets').first
+                    metafields:
+                        type: fields
+                        fields:
+                            description:
+                                extends: fields/plaineditor
+                                label: Site Description
+                            headertext:
+                                label: Default Slogan
+                                type: text
+                            siteauthor:
+                                type: text
+                                label: Site Author Name
+                            siteauthortwitter:
+                                type: text
+                                label: Site Author Twitter Name
+                            sitefacebook:
+                                type: url
+                                label: Site Facebook Page
+                            sitetwitter:
+                                type: url
+                                label: Site Twitter Page
+                            siteinstagram:
+                                type: url
+                                label: Site Instagram Page
+                            sitepinterest:
+                                type: url
+                                label: Site Pinterest Page
+                            sitelogo:
+                                type: files
+                                layout: cards
+                                multiple: false
+                                label: Site Logo
+                            siteimage:
+                                type: files
+                                layout: cards
+                                multiple: false
+                                label: Site Default Image
+                    pageimages:
+                        extends: sections/pageimages
+    form:
+        label: Rückruf- Wunsch Form
+        icon: phone
+        sections:
+            formeroors:
+                type: fields
+                fields:
+                    nameerror:
+                        label: Name Error Message
+                        type: text
+                    phoneerror:
+                        label: Phone Error Message
+                        type: text
+                    impressumerror:
+                        label: Data Policy Error Message
+                        type: text
+                    successmessage:
+                        label: Success Message
+                        type: textarea
+                        size: medium
+                        buttons: false

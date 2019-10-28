@@ -1,0 +1,9 @@
+title: Document
+
+accept:
+    mime: application/pdf
+
+fields:
+    title:
+        type: text
+        label: Document Title

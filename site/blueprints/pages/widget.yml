@@ -1,0 +1,28 @@
+title: Widget
+
+options:
+    changeTemplate: false
+
+status:
+    draft: Draft
+    unlisted: In Review
+    listed: Published
+
+sections:
+    content:
+        type: fields
+        fields:
+            body:
+                label: Text
+                type: markdown
+                size: medium
+                buttons:
+                  - headlines
+                    - h3
+                    - h4
+                  - bold
+                  - italic
+                  - ul
+                  - ol
+                  - link
+                  - email

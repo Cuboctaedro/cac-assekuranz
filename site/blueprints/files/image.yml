@@ -1,0 +1,12 @@
+title: Image
+
+accept:
+    mime: image/jpeg, image/png, image/svg+xml
+
+fields:
+    alt:
+        extends: fields/plaineditor
+        label: Description
+    caption:
+        extends: fields/plaineditor
+        label: Caption

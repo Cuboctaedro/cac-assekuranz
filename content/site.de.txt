@@ -1,0 +1,61 @@
+Title: CAC Assekuranz
+
+----
+
+Description: 
+
+----
+
+Headertext: CAC Assekuranz: Ihr Unabhängiger Versicherungsmakler
+
+----
+
+Siteauthor: 
+
+----
+
+Siteauthortwitter: 
+
+----
+
+Sitefacebook: 
+
+----
+
+Sitetwitter: 
+
+----
+
+Siteinstagram: 
+
+----
+
+Sitepinterest: 
+
+----
+
+Sitelogo:
+
+- cac-assekuranz.png
+
+----
+
+Siteimage:
+
+- logo-glass.jpg
+
+----
+
+Nameerror: Please enter your name
+
+----
+
+Phoneerror: Please enter your phone number
+
+----
+
+Impressumerror: Please agree with our data policy
+
+----
+
+Successmessage: Thank you for your message!

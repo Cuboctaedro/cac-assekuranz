@@ -1,0 +1,27 @@
+title: Blog
+
+options:
+    changeSlug: false
+    changeTemplate: false
+    duplicate: false
+
+columns:
+  - width: 1/2
+        sections:
+            inreview:
+                headline: In Review
+                type: pages
+                status: unlisted
+                templates: post
+            drafts:
+                headline: Drafts
+                type: pages
+                status: draft
+                templates: post
+  - width: 1/2
+        sections:
+            published:
+                headline: Published Posts
+                type: pages
+                status: listed
+                templates: post

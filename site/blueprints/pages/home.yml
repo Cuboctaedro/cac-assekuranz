@@ -1,0 +1,55 @@
+title: Home Page
+
+options:
+    changeTemplate: false
+
+status:
+    unlisted: Published
+
+tabs:
+    content: Content
+        icon: text
+        columns:
+          - width: 2/3
+            sections:
+                content:
+                    type: fields
+                    fields:
+                        body:
+                            label: Text
+                            type: markdown
+                            size: medium
+                            buttons:
+                              - headlines
+                                - h2
+                                - h3
+                                - h4
+                              - bold
+                              - italic
+                              - ul
+                              - ol
+                              - link
+                              - email
+                        activities:
+                            label: Activities
+                            type: structure
+                            max: 3
+                            fields:
+                                activity:
+                                    type: text
+                                    label: Activity
+
+          - width: 1/3
+            sections:
+                metadata:
+                    type: fields
+                    fields:
+                        coverimages:
+                            label: Cover Images
+                            type: files
+                            layout: cards
+                            multiple: true
+                            max: 5
+                pageimages:
+                    extends: sections/pageimages
+    seo: tabs/seo

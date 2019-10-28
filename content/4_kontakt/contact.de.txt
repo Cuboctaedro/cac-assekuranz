@@ -1,0 +1,60 @@
+Title: Kontakt
+
+----
+
+Body: 
+
+----
+
+People:
+
+- 
+  name: Anna Cammilleri
+  position: Geschäftsführerin
+  email: a.cammilleri@cac-assekuranz.de
+  portrait:
+    - anna-camillieri.jpg
+- 
+  name: Joanna Rotuska
+  position: Backoffice
+  email: j.rotuska@cac-assekuranz.de
+  portrait:
+    - joanna-rotuska.jpg
+
+----
+
+Coverimage:
+
+- reception.jpg
+
+----
+
+Nameerror: Please enter your name
+
+----
+
+Emailerror: Please enter your email
+
+----
+
+Phoneerror: Please enter your phone number
+
+----
+
+Impressumerror: Please agree with our data policy
+
+----
+
+Successmessage: Thank you for your message!
+
+----
+
+Metadescription: 
+
+----
+
+Metaimage: 
+
+----
+
+Authortwitter: 
