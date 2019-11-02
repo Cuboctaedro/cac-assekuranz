@@ -18,7 +18,7 @@ mix
     .purgeCss({
         folders: ['site/templates', 'site/snippets'],
         whitelist: ['uniform__potty', 'honeypot-field', 'is_active', ],
-        whitelistPatterns: [/^pswp/]
+        whitelistPatterns: [/^headerimage-/]
     })
 
     .version()

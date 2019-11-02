@@ -12,7 +12,7 @@
                     <a href="<?= $result->url() ?>"><?= $result->title()->html() ?></a>
                 </h2>
                 <div>
-                    <?= $result->sum() ?>
+                    <?= $result->body()->excerpt(100) ?>
                 </div>
             </li>
         <?php endforeach; ?>

@@ -25,7 +25,7 @@ People:
 
 Coverimage:
 
-- reception.jpg
+- heppenheim.jpg
 
 ----
 

@@ -13,7 +13,7 @@
     <ul class="flex flex-row flex-wrap unlist items-stretch mb-60">
         <?php foreach($page->people()->toStructure() as $person): ?>
         <li class="px-15 pb-30 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
-            <div class="shadow-md hover:shadow-xl h-full">
+            <div class="shadow-md hover:shadow-xl h-full md:h-400 ">
 
                 <?php if ($person->portrait()->isNotEmpty()) : ?>
                 <div class="ratio ratio-square bg-center bg-cover" style="background-image:url(<?=  $person->portrait()->toFile()->url() ?>);"></div>

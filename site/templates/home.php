@@ -8,7 +8,7 @@
 </section>
 <div class="w-full flex flex-row flex-wrap">
     <?php foreach($page->activities()->toStructure() as $activity): ?>
-        <div class="p-15 w-full md:w-1/3">
+        <div class="p-15 w-full lg:w-1/3">
             <div class="bg-brand text-white text-center uppercase tracking-wider px-15 py-30">
                 <?= $activity->activity() ?>
             </div>

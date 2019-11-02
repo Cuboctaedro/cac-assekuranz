@@ -1,1 +1,48 @@
+.menuitem {
+    @apply p-30 text-center block;
+}
+.menuitem:hover {
+    @apply bg-brand_light_3;
+}
+.menulist {
+    top: 7rem;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+@screen md {
+    .menuitem {
+        @apply p-0 relative;
+    }
+    .menuitem::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+        @apply bg-brand;
+    }
+    .menuitem:hover {
+        @apply bg-transparent text-brand;
+    }
+    .menuitem:hover::after {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+}
 
+.searchform.flex {
+    top: 7rem;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    padding: 1.5rem;
+}
+.searchform.flex input {
+    width: 100%;
+}

@@ -31,8 +31,8 @@ Coverimages:
 
 - logo-glass.jpg
 - exterior.jpg
-- keyboard.jpg
 - reception.jpg
+- phone.jpg
 
 ----
 
